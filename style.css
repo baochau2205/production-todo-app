@@ -1,0 +1,70 @@
+body {
+  font-family: system-ui;
+  background: #0b1220;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.app {
+  width: 420px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+#addBtn {
+  background: #22c55e;
+  color: white;
+}
+
+.filters {
+  display: flex;
+  margin: 12px 0;
+  gap: 6px;
+}
+
+.filters button {
+  flex: 1;
+  background: #1e293b;
+  color: white;
+}
+
+.filters .active {
+  background: #3b82f6;
+}
+
+li {
+  background: #111827;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+#empty {
+  opacity: 0.6;
+}
