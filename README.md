@@ -9,6 +9,10 @@ A frontend Todo application built with vanilla JavaScript using a production-sty
 - Event delegation pattern
 - Clean separation of state / logic / UI
 
+## Preview 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/db18460f-678e-4837-85a0-63edcb987457" />
+
+
 ## Tech Stack
 - HTML
 - CSS
